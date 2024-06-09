@@ -1,0 +1,24 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+ }
+
+body{
+   height: 100vh;
+   overflow-x: hidden;
+}
+#root{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+}
+
+.navbar-box-shadow-css{
+   background-color: red;
+}
+
+

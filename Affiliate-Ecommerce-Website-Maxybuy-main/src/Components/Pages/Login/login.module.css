@@ -1,0 +1,150 @@
+ 
+
+.loginOuter{
+    height: 80%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 20%;
+    width: 90%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.heading h1 span{
+    color: rgb(89, 134, 233)
+}
+
+.inputDetails{
+    padding-top: 2rem;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid rgb(17, 10, 37); */
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 1px rgb(228, 221, 221);
+
+}
+.loginWithGF{
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.withLogin{
+    width:48%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+
+}
+.useEmail{
+    height: 0px;
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 100px;
+}
+ 
+.inputForm{
+    width: 90%;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+    
+
+}
+
+.inputField{
+    width: 100%;
+
+}
+ 
+
+.formControl{
+    height: 40px;
+    width: 97%;
+    border-radius: 8px;
+    border: 1px solid rgb(146, 137, 137);
+    padding-left: 14px;
+}
+
+
+.submit{
+
+    height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: rgb(111, 77, 255);
+    padding-left: 14px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+.verifyEmail{
+    height: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.verifyEmail p{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #bca4a4;
+}
+
+/* sign up css */
+.createAccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.createAccount p{
+    font-size: 16px;
+}
+.createSignUp{
+    color: rgb(27, 27, 243);
+    font-weight: bold;
+    text-decoration: none;
+}

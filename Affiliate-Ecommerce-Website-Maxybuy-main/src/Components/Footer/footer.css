@@ -1,0 +1,86 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 11px;
+    padding-right: 11px;
+
+}
+
+
+.footer{
+    width: 99%;
+    max-width: 1700px;
+    background-color: rgb(8, 5, 30);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border: 1px solid gray
+
+}
+
+.footer-logo{
+    width: 10%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+ 
+}
+
+.online-shoping, .about, .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    width: 20%;
+    
+    padding: 10px;
+    margin-left: 10px;
+    color: #fff
+
+}
+
+.online-shoping span, .about span, .contact span{
+    margin-bottom: 10px;
+    font-weight: 600;
+   
+
+}
+.online-shoping li, .about li, .contact li{
+    color: #c6b5b5;
+    list-style: none;
+}
+
+
+
+.social-media{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+
+}
+ 
+.social-media .sm{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.social-media .sm:hover{
+    background-color: rgb(111, 90, 182);
+}

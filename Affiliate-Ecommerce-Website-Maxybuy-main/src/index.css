@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    /* https://hype4.academy/tools/glassmorphism-generator */
+
+    .navbar-box-shadow-css {
+        width: 99%;
+
+        max-width: 1700px;
+        background: rgba(71, 59, 159, 0.87);
+        backdrop-filter: blur(6.5px);
+        -webkit-backdrop-filter: blur(6.5px);
+        border-radius: 7px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+}
+
+@layer components {
+    .full-page-section {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+
+    }
+
+    .centre-page-section {
+        width: 99%;
+        max-width: 1660px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .bdr {
+        border: 2px solid black;
+    }
+
+}

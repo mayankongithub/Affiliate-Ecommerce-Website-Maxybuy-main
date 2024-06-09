@@ -1,0 +1,236 @@
+.cart-container{
+    background: linear-gradient(rgb(83, 181, 219),rgb(234, 91, 143),rgb(60, 45, 94) );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.cartItems{
+
+    width: 99%;
+    max-width: 1660px;
+ 
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    
+
+}
+
+.items-list{
+    margin-top: 110px;
+     
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+
+}
+
+
+.ptpqtr{
+    width: 98%;
+ 
+    height: 50px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    
+
+}
+.ptpqtr h3{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.product-title, .img-title{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+   
+}
+
+.ttttt{
+    margin-left: 35px;
+}
+.item-detail{
+    width: 98%;
+    height: 100px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.item-price, .item-quantity, .item-total, .item-remove{
+ 
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.item-img{
+    height: 100px;
+    width: 100px;
+    border:  1px solid gray;
+    overflow: hidden;
+    
+}
+.item-img img{
+    width: 100%;
+}
+
+.item-price, .item-total{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(57, 55, 55);
+}
+.item-quantity{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(208, 200, 200);
+    border-radius: 3px;
+}
+.item-remove span{
+    height: 40px;
+    font-size: 20px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(224, 89, 89);
+    border-radius: 3px;
+    transition: all 0.1s ease-in;
+    color: #fff;
+}
+.item-remove span:hover{
+    background-color: rgb(218, 65, 65);
+}
+
+.cart-price{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    
+   
+   
+}
+.left-calc{
+    width: 40%;
+    
+   
+}
+
+.calculation{
+    height: 70%;
+   
+    width: 100%;
+
+
+}
+.subtotal, .shipping-fee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid rgb(132, 117, 117);
+}
+.subtotal span, .shipping-fee span{
+    font-size: 20px;
+
+}
+
+.total-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+
+}
+.total-price span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.proceed-to-checkout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+   
+}
+.proceed-to-checkout button{
+    font-size: 25px;
+    background-color: rgb(8, 5, 30);
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   padding-left: 25px;
+   border-radius: 5px;
+   padding-right: 25px;
+}
+.right-promo-code{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pc{
+    width: 60%;
+}
+.input-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-promo-code p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(67, 77, 77);
+}
+.right-promo-code input{
+    height: 40px;
+    width: 75%;
+   
+    outline: none;
+    padding-left: 20px;
+    color: rgb(77, 66, 66);
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #e0d7d7;
+    
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.right-promo-code button{
+    height: 41px;
+    width: 19%;
+    background-color: rgb(8, 5, 30);
+    color: #fff;
+    border-bottom-left-radius: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    border-top-left-radius: 2px;
+}
